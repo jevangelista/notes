@@ -6,3 +6,86 @@
 }
 .block-children > * { display: block;}
 .inline-block-children > * { display: inline-block; }
+
+.shout {
+	text-transform: uppercase;
+}
+
+.shadow {
+	 text-shadow: 2px 2px #787878;
+}
+
+.invert {
+	transform: rotate(180deg);
+}
+
+.red-background {
+	background-color: red;
+}
+
+.blue-background {
+	background-color: blue;
+}
+
+.purple-background {
+	background-color: purple;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.small-circle {
+	width: 120px;
+    height: 120px;
+    border-radius: 50%;
+	position: absolute;
+    top: 710px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.middle-circle {
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    position: absolute;
+    top: 675px;
+    right: 0;
+    left: 0;
+    z-index: 0;
+
+}
+
+.larger-circle {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    position: absolute;
+    top: 650px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.half {
+	height: 50%;
+	width: 50%;
+}
+
+.middle {
+	margin: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.bullseye {
+    border: 5px solid #000000;
+}
+
+
