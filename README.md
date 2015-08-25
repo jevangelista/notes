@@ -11,7 +11,52 @@
 <!-- ##Week 6 -->
 <!-- ##Week 5 -->
 <!-- ##Week 4 -->
-<!-- ##Week 3 -->
+
+##Week 3 -- REST & CRUD
+<table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td>Game Show (Team)</td>
+    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a> (Justin)</td>
+    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a>(Justin)</td>
+    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a>(Justin)</td>
+    <td>Assessment (Team)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td><a href='week-03/day-01-bootstrap-orm/dawn-bootstrap/readme.md'>Bootstrap, Bower</a> (Nathan)</td>
+    <td>Intro Express: Serving Data (Nathan)</td>
+    <td>Todo Lab: CR (Ilias)</td>
+    <td>Cookies & local storage (Nathan)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td><a href='week-03/day-01-bootstrap-orm/dusk-orm-lab/readme.md'>ORM Lab</a> (Justin)</td>
+    <td>Intro Express: Routes & Params (Nathan)</td>
+    <td>Todo Lab: UD (Ilias)</td>
+    <td>Mongo CRUD (Justin)</td>
+    <td>Catchphrase Project (Ilias)</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td><a href="week-03/day-02-intro-express/dawn-routing/README.md">Express Hello World</a> (Nathan)</td>
+    <td>RESTful convention (Ilias)</td>
+    <td>Mongo CRUD (Justin)</td>
+    <td>TBD (Ilias)</td>
+    <td><!-- LEAVE BLANK --></td>
+  </tr>
+</table>
+
+
 
 ##Week 2 -- Working with Objects
 <table>
@@ -36,7 +81,7 @@
     <td><a href="week-02/day-01-arrays%2BIterators/dawn-arrayMethods">Array Methods</a> (Justin)</td>
     <td><a href="week-02/day-02-forms+AJAX/dawn-forms">Forms & JSON</a> (Nathan)</td>
     <td><a href="week-02/day-03-jquery-templating/html-templating/readme.md">HTML Templating</a> (Ilias)</td>
-    <td>Objects (Justin)</td>
+    <td><a href="week-02/day-04-Objects-and-OOP/dawn-objects/readme.md">Objects (Justin)</a></td>
     <td>Review (Team)</td>
   </tr>
   <tr>
@@ -44,8 +89,8 @@
     <td><a href="week-02/day-01-arrays%2BIterators/dusk-iteratorsLab">Implementing Iterators</a> (Ilias)</td>
     <td><a href="week-02/day-02-forms+AJAX/dusk-ajax">Intro AJAX</a> (Nathan)</td>
     <td><a href="week-02/day-03-jquery-templating/dusk-ajax-google-maps">AJAX & Google Maps</a> (Nathan)</td>
-    <td>OOP Drills (Justin)</td>
-    <td>OOP Refactor (Nathan)</td>
+    <td><a href="week-02/day-04-Objects-and-OOP/dusk-object-drills/readme.md">OOP Drills (Justin)</a></td>
+    <td><a href="week-02/day-05/weekend_project_refactor_spec.md">OOP Racing Game</a> (Nathan)</td>
   </tr>
   <tr>
     <td>HW</td>
