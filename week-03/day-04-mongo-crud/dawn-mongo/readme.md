@@ -131,7 +131,7 @@ var Book = mongoose.model('Book', BookSchema);
 
 [Here is a link to all of the different datatypes we can use in a Schema](http://mongoosejs.com/docs/schematypes.html)
 
-###Building and Creating Documents
+###Create -- Building and Creating Documents
 
 A MongoDB *Document* is the entry of data stored in MongoDB; Documents are analogous to JSON objects but exist in the database in a more type-rich format known as BSON (binary-JSON).
 
@@ -163,14 +163,42 @@ Book.create({title: "The Giver"}, function (err, book) {
 });
 ```
 
-###Removing
+
+###Read
+
+We can find books by author:
+
+```javascript
+  Book.find({author: "Lewis Carroll"}, function (err, books) {
+    console.log(books);
+  });
+```
+
+We can find ALL the books as follows (note that a pair of empty curly braces signals that we want EVERYTHING returned / no filtering):
+
+```javascript
+Book.find({}, function(err, books){
+  console.log(books);
+});
+```
+
+Try out some of the other find methods.
+
+```javascript
+.findOne();
+.findById();
+```
+Reference the docs for more info on what you can do with Mongoose Models
+
+
+###Destroy
 Removing a Document is as simple as Building and Creating.
 
 Using the remove method:
 
 ```javascript
 Book.remove({ title: "The Giver" }, function(err, book) {
-    if (!err) return console.log(err);
+    if (err) { return console.log(err) };
     
     console.log("removal of " + book.title + " successful.")
 });
@@ -180,107 +208,8 @@ Other removal methods include:
 ```javascript
 findByIdAndRemove();
 findOneAndRemove();
-	
+    
 ```
-
-
-###Reading
-
-Let's find a book by it's author.
-
-```javascript
-  Book.find({author: "Lewis Carroll"}, function (err, books) {
-    console.log(books);
-  });
-```
-
-Try out some of the other find methods.
-
-```javascript
-findOne();
-findById();
-```
-Reference the docs for more info on what you can do with Mongoose Models
-
-
-###Storing a Query Object
-
-We can console.log all books as follows:
-
-```javascript
-Book.find({}, function(err, books){
-  console.log(books);
-});
-```
-
-Note that a pair of empty curly braces signals that we want EVERYTHING returned. We can avoid passing in a callback to our query and store it for later...
-
-
-```javascript
-var query = Book.find({});
-query.exec(function(err, books){
-  console.log(books);
-});
-```
-
-
-
-## Organizing the Data
-
-### Document Structure
-
-**Embedded Data**
-
-![](http://docs.mongodb.org/manual/_images/data-model-denormalized.png)
-
-
-**Data References**
-
-![](http://docs.mongodb.org/manual/_images/data-model-normalized.png)
-
-
-## Embedded Data
-
-* Let's make a new `Author` schema with the attributes
-	* `name` that will be a String
-	* `books` that will contain an array of Books the Author has written 
-
-* Define the Author schema
-
-```javascript
-var AuthorSchema = new Schema({
-  name: String,
-  books: [BookSchema]
-});
-```
-* Turn the schema into a model
-
-```
-var Author = mongoose.model('Author', AuthorSchema);
-```
-
-* Let's make an author
-```javascript
-var homer = new Author();
-```
-
-* Create some books
-
-```javascript
-var theIliad = new Book({title: 'The Iliad'});
-var theOdyssey = new Book({title: 'The Odyssey'});
-```
-
-* Associate the books with that Author and check the result
-
-```javascript
-homer.books.push(theIliad, theOdyssey);
-homer.books;
-```
-
-* Note: Since the books are stored *inside* the associated Author, we can remove the Book's property `author`
-
-
 
 ##Further suggested readings:
 [Mongoose official site](http://mongoosejs.com/index.html)

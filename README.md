@@ -26,8 +26,8 @@
     <td>Drills</td>
     <td>Game Show (Team)</td>
     <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a> (Justin)</td>
-    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a>(Justin)</td>
-    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a>(Justin)</td>
+    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a> (Justin)</td>
+    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a> (Justin)</td>
     <td>Assessment (Team)</td>
   </tr>
   <tr>
@@ -43,15 +43,15 @@
     <td><a href='week-03/day-01-bootstrap-orm/dusk-orm-lab/readme.md'>ORM Lab</a> (Justin)</td>
     <td>Intro Express: <a href="week-03/day-02-intro-express/dusk-assets">Static Assets</a> (Nathan)</td>
     <td>Todo Lab: UD (Ilias)</td>
-    <td>Mongo CRUD (Justin)</td>
-    <td>Catchphrase Project (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/bite_me_mongo_express">Express Mongo Lab</a> (Nathan)</td>
+    <td><a href="week-03/day-05">Catchphrase Project</a></td>
   </tr>
   <tr>
     <td>HW</td>
     <td><a href="week-03/day-02-intro-express/dawn-routing/README.md">Express Hello World</a> (Nathan)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-03/day-03-crud-express/rest.md">RESTful convention</a> (Ilias)</td>
     <td><a href="week-03/day-04-mongo-crud/dawn-mongo/readme.md">Mongo CRUD</a>(Justin)</td>
-    <td>TBD (Ilias)</td>
+    <td><a href="https://vimeo.com/36579366">Bret Victor: Inventing on Principle</a> (Ilias)</td>
     <td><!-- LEAVE BLANK --></td>
   </tr>
 </table>
