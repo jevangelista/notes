@@ -25,8 +25,8 @@
   <tr>
     <td>Drills</td>
     <td><a href="week-04/drills.md">Binary Search </a>(Justin)</td>
-    <td>Secret Keys (Justin / Ilias)</td>
-    <td>Warm Up Exercise</td>
+    <td><a href="week-04/drills.md#day-2---keeping-things-a-secret">Secret Keys </a>(Illias & Justin)</td>
+    <td><a href="week-04/drills.md#day---03-bubble-sort">Bubble Sort!</a>(Justin)</td>
     <td>Warm Up Exercise</td>
     <td>Review (Team)</td>
   </tr>
@@ -34,7 +34,7 @@
     <td>Module1</td>
     <td><a href="https://github.com/sf-wdi-21/mongo-rel-book-app">Mongo Relationships (Justin)</a></td>
     <td><a href="week-04/day-2-cookies-sessions">Cookies</a> (Nathan)</td>
-    <td>Authorization: Express Bcrypt (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-04/day-3-auth/dawn-express-auth/readme.md">Authorization: Express Bcrypt</a> (Ilias)</td>
     <td>Lab (Nathan)</td>
     <td>Review (Team)</td>
   </tr>
@@ -49,7 +49,7 @@
   <tr>
     <td>HW</td>
     <td><a href="week-04/day-2-cookies-sessions/README.md">Cookies</a> (Nathan)</td>
-    <td>Auth (Ilias) </td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-04/day-3-auth/readme.md">Auth</a> (Ilias) </td>
     <td>TBD (Team)</td>
     <td>Project One</td>
     <td><!-- LEAVE BLANK --></td>
